@@ -1,0 +1,6 @@
+=== HTTP to HTTPS Redirect ===
+HTTP/1.1 200 OK
+Date: Sun, 19 Apr 2026 06:05:58 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
