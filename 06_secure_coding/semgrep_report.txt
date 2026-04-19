@@ -1,0 +1,141 @@
+                    
+                    
+┌──────────────────┐
+│ 13 Code Findings │
+└──────────────────┘
+                                                         
+    ../04_dependencies/ctfd_source/CTFd/admin/__init__.py
+   ❯❯❱ [1mpython.flask.security.injection.path-traversal-open.path-traversal-open[0m
+          ❰❰ Blocking ❱❱
+          Found request data in a call to 'open'. Ensure the request data is 
+          validated or sanitized, otherwise it could result in path traversal
+          attacks.                                                           
+          Details: https://sg.run/PJRW                                       
+                                                                             
+           90┆ config_html = open(
+           91┆     os.path.join(app.root_path, "plugins", plugin,
+               "config.html")                                    
+           92┆ ).read()
+                                                         
+    ../04_dependencies/ctfd_source/CTFd/cache/__init__.py
+    ❯❱ [1mpython.lang.security.insecure-hash-algorithms-md5.insecure-hash-algorithm-md5[0m
+          ❰❰ Blocking ❱❱
+          Detected MD5 hash algorithm which is considered insecure. MD5 is not
+          collision resistant and is therefore not suitable as a cryptographic
+          signature. Use SHA256 or SHA3 instead.                              
+          Details: https://sg.run/vYrY                                        
+                                                                              
+          122┆ args_hash =                                           
+               md5(str(args_as_sorted_tuple).encode()).hexdigest()  #
+               nosec B303 B324                                       
+                                                               
+    ../04_dependencies/ctfd_source/CTFd/utils/email/__init__.py
+    ❯❱ [1mpython.flask.security.audit.flask-url-for-external-true.flask-url-for-external-[0m
+  [1m     true[0m                                                                           
+          ❰❰ Blocking ❱❱
+          Function `flask.url_for` with `_external=True` argument will        
+          generate URLs using the `Host` header of the HTTP request, which may
+          lead to security risks such as Host header injection                
+          Details: https://sg.run/gEGeR                                       
+                                                                              
+           42┆ url=url_for("auth.reset_password", _external=True),
+            ⋮┆----------------------------------------
+           58┆ url=url_for(
+           59┆     "auth.reset_password",
+           60┆     data=generate_password_reset_token(email),
+           61┆     _external=True,
+           62┆ ),
+            ⋮┆----------------------------------------
+           77┆ url=url_for(
+           78┆     "auth.confirm",
+           79┆     data=generate_email_confirm_token(addr),
+           80┆     _external=True,
+           81┆     _method="GET",
+           82┆ ),
+            ⋮┆----------------------------------------
+           98┆ url=url_for("views.static_html", _external=True),
+            ⋮┆----------------------------------------
+          114┆ url=url_for("views.static_html", _external=True),
+                                                                
+    ../04_dependencies/ctfd_source/CTFd/utils/social/__init__.py
+    ❯❱ [1mpython.flask.security.audit.flask-url-for-external-true.flask-url-for-external-[0m
+  [1m     true[0m                                                                           
+          ❰❰ Blocking ❱❱
+          Function `flask.url_for` with `_external=True` argument will        
+          generate URLs using the `Host` header of the HTTP request, which may
+          lead to security risks such as Host header injection                
+          Details: https://sg.run/gEGeR                                       
+                                                                              
+           57┆ return url_for(
+           58┆     "social.share",
+           59┆     type=self.type,
+           60┆     user_id=self.user_id,
+           61┆     challenge_id=self.challenge_id,
+           62┆     mac=self.mac,
+           63┆     _external=True,
+           64┆ )
+            ⋮┆----------------------------------------
+           95┆ register_url = url_for("auth.register", _external=True)
+            ⋮┆----------------------------------------
+          113┆ asset_url = url_for(
+          114┆     "social.assets",
+          115┆     type=self.type,
+          116┆     path=self.mac + ".png",
+          117┆     user_id=self.user_id,
+          118┆     challenge_id=self.challenge_id,
+          119┆     _external=True,
+          120┆ )
+                                                                 
+    ../04_dependencies/ctfd_source/CTFd/utils/uploads/__init__.py
+    ❯❱ [1mpython.lang.security.insecure-hash-algorithms.insecure-hash-algorithm-sha1[0m
+          ❰❰ Blocking ❱❱
+          Detected SHA1 hash algorithm which is considered insecure. SHA1 is
+          not collision resistant and is therefore not suitable as a        
+          cryptographic signature. Use SHA256 or SHA3 instead.              
+          Details: https://sg.run/ydYx                                      
+                                                                            
+           [32m▶▶┆ Autofix ▶ [0mhashlib.sha256()
+           76┆ h = hashlib.sha1()  # nosec
+                                                
+    ../04_dependencies/ctfd_source/CTFd/views.py
+    ❯❱ [1mpython.django.security.injection.raw-html-format.raw-html-format[0m
+          ❰❰ Blocking ❱❱
+          Detected user input flowing into a manually constructed HTML string.
+          You may be accidentally bypassing secure methods of rendering HTML  
+          by manually constructing HTML and this could create a cross-site    
+          scripting vulnerability, which could let attackers steal sensitive  
+          user data. To be sure this is safe, check that the HTML is rendered 
+          safely. Otherwise, use templates (`django.shortcuts.render`) which  
+          will safely render HTML instead.                                    
+          Details: https://sg.run/oYj1                                        
+                                                                              
+          122┆ css = (
+          123┆     '<style id="theme-color">\n'
+          124┆     ":root {{--theme-color: {theme_color};}}\n"
+          125┆     ".navbar{{background-color: var(--theme-color)
+               !important;}}\n"                                  
+          126┆     ".jumbotron{{background-color: var(--theme-color)
+               !important;}}\n"                                     
+          127┆     "</style>\n"
+          128┆ ).format(theme_color=theme_color)
+   
+    ❯❱ [1mpython.flask.security.injection.raw-html-concat.raw-html-format[0m
+          ❰❰ Blocking ❱❱
+          Detected user input flowing into a manually constructed HTML string.
+          You may be accidentally bypassing secure methods of rendering HTML  
+          by manually constructing HTML and this could create a cross-site    
+          scripting vulnerability, which could let attackers steal sensitive  
+          user data. To be sure this is safe, check that the HTML is rendered 
+          safely. Otherwise, use templates (`flask.render_template`) which    
+          will safely render HTML instead.                                    
+          Details: https://sg.run/Pb7e                                        
+                                                                              
+          122┆ css = (
+          123┆     '<style id="theme-color">\n'
+          124┆     ":root {{--theme-color: {theme_color};}}\n"
+          125┆     ".navbar{{background-color: var(--theme-color)
+               !important;}}\n"                                  
+          126┆     ".jumbotron{{background-color: var(--theme-color)
+               !important;}}\n"                                     
+          127┆     "</style>\n"
+          128┆ ).format(theme_color=theme_color)

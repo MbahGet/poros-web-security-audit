@@ -1,0 +1,2 @@
+Possible hardcoded SECRET_KEY in ../04_dependencies/ctfd_source/CTFd/config.py
+DEBUG=True found in ../04_dependencies/ctfd_source/CTFd/config.py

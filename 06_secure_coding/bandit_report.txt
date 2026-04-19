@@ -1,0 +1,88 @@
+Run started:2026-04-19 07:46:32.505783+00:00
+
+Test results:
+>> Issue: [B105:hardcoded_password_string] Possible hardcoded password: 'AAAAAAAAAAAAAAAAAAAA'
+   Severity: Low   Confidence: Medium
+   CWE: CWE-259 (https://cwe.mitre.org/data/definitions/259.html)
+   More Info: https://bandit.readthedocs.io/en/1.9.4/plugins/b105_hardcoded_password_string.html
+   Location: ../04_dependencies/ctfd_source/CTFd/config.py:308:17
+307	class TestingConfig(ServerConfig):
+308	    SECRET_KEY = "AAAAAAAAAAAAAAAAAAAA"
+309	    PRESERVE_CONTEXT_ON_EXCEPTION = False
+
+--------------------------------------------------
+>> Issue: [B105:hardcoded_password_string] Possible hardcoded password: 'Password Reset Request from {ctf_name}'
+   Severity: Low   Confidence: Medium
+   CWE: CWE-259 (https://cwe.mitre.org/data/definitions/259.html)
+   More Info: https://bandit.readthedocs.io/en/1.9.4/plugins/b105_hardcoded_password_string.html
+   Location: ../04_dependencies/ctfd_source/CTFd/constants/email.py:19:33
+18	)
+19	DEFAULT_PASSWORD_RESET_SUBJECT = "Password Reset Request from {ctf_name}"
+20	DEFAULT_PASSWORD_RESET_BODY = (
+
+--------------------------------------------------
+>> Issue: [B105:hardcoded_password_string] Possible hardcoded password: 'Did you initiate a password reset on {ctf_name}? If you didn't initiate this request you can ignore this email. 
+
+Click the following link to reset your password:
+{url}
+
+If the link is not clickable, try copying and pasting it into your browser.'
+   Severity: Low   Confidence: Medium
+   CWE: CWE-259 (https://cwe.mitre.org/data/definitions/259.html)
+   More Info: https://bandit.readthedocs.io/en/1.9.4/plugins/b105_hardcoded_password_string.html
+   Location: ../04_dependencies/ctfd_source/CTFd/constants/email.py:21:4
+20	DEFAULT_PASSWORD_RESET_BODY = (
+21	    "Did you initiate a password reset on {ctf_name}? "
+22	    "If you didn't initiate this request you can ignore this email. \n\n"
+23	    "Click the following link to reset your password:\n{url}\n\n"
+24	    "If the link is not clickable, try copying and pasting it into your browser."
+25	)
+26	DEFAULT_PASSWORD_CHANGE_ALERT_SUBJECT = "Password Change Confirmation for {ctf_name}"
+27	DEFAULT_PASSWORD_CHANGE_ALERT_BODY = (
+
+--------------------------------------------------
+>> Issue: [B105:hardcoded_password_string] Possible hardcoded password: 'Password Change Confirmation for {ctf_name}'
+   Severity: Low   Confidence: Medium
+   CWE: CWE-259 (https://cwe.mitre.org/data/definitions/259.html)
+   More Info: https://bandit.readthedocs.io/en/1.9.4/plugins/b105_hardcoded_password_string.html
+   Location: ../04_dependencies/ctfd_source/CTFd/constants/email.py:26:40
+25	)
+26	DEFAULT_PASSWORD_CHANGE_ALERT_SUBJECT = "Password Change Confirmation for {ctf_name}"
+27	DEFAULT_PASSWORD_CHANGE_ALERT_BODY = (
+
+--------------------------------------------------
+>> Issue: [B105:hardcoded_password_string] Possible hardcoded password: 'Your password for {ctf_name} has been changed.
+
+If you didn't request a password change you can reset your password here:
+{url}
+
+If the link is not clickable, try copying and pasting it into your browser.'
+   Severity: Low   Confidence: Medium
+   CWE: CWE-259 (https://cwe.mitre.org/data/definitions/259.html)
+   More Info: https://bandit.readthedocs.io/en/1.9.4/plugins/b105_hardcoded_password_string.html
+   Location: ../04_dependencies/ctfd_source/CTFd/constants/email.py:28:4
+27	DEFAULT_PASSWORD_CHANGE_ALERT_BODY = (
+28	    "Your password for {ctf_name} has been changed.\n\n"
+29	    "If you didn't request a password change you can reset your password here:\n{url}\n\n"
+30	    "If the link is not clickable, try copying and pasting it into your browser."
+31	)
+
+--------------------------------------------------
+
+Code scanned:
+	Total lines of code: 17606
+	Total lines skipped (#nosec): 5
+	Total potential issues skipped due to specifically being disabled (e.g., #nosec BXXX): 5
+
+Run metrics:
+	Total issues (by severity):
+		Undefined: 0
+		Low: 5
+		Medium: 0
+		High: 0
+	Total issues (by confidence):
+		Undefined: 0
+		Low: 0
+		Medium: 5
+		High: 0
+Files skipped (0):
