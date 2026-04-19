@@ -1,0 +1,174 @@
+No match for "MIRROR.POROSCTF.COM".
+>>> Last update of whois database: 2026-04-19T07:17:08Z <<<
+
+NOTICE: The expiration date displayed in this record is the date the
+registrar's sponsorship of the domain name registration in the registry is
+currently set to expire. This date does not necessarily reflect the expiration
+date of the domain name registrant's agreement with the sponsoring
+registrar.  Users may consult the sponsoring registrar's Whois database to
+view the registrar's reported date of expiration for this registration.
+
+TERMS OF USE: You are not authorized to access or query our Whois
+database through the use of electronic processes that are high-volume and
+automated except as reasonably necessary to register domain names or
+modify existing registrations; the Data in VeriSign Global Registry
+Services' ("VeriSign") Whois database is provided by VeriSign for
+information purposes only, and to assist persons in obtaining information
+about or related to a domain name registration record. VeriSign does not
+guarantee its accuracy. By submitting a Whois query, you agree to abide
+by the following terms of use: You agree that you may use this Data only
+for lawful purposes and that under no circumstances will you use this Data
+to: (1) allow, enable, or otherwise support the transmission of mass
+unsolicited, commercial advertising or solicitations via e-mail, telephone,
+or facsimile; or (2) enable high volume, automated, electronic processes
+that apply to VeriSign (or its computer systems). The compilation,
+repackaging, dissemination or other use of this Data is expressly
+prohibited without the prior written consent of VeriSign. You agree not to
+use electronic processes that are automated and high-volume to access or
+query the Whois database except as reasonably necessary to register
+domain names or modify existing registrations. VeriSign reserves the right
+to restrict your access to the Whois database in its sole discretion to ensure
+operational stability.  VeriSign may restrict or terminate your access to the
+Whois database for failure to abide by these terms of use. VeriSign
+reserves the right to modify these terms at any time.
+
+The Registry database contains ONLY .COM, .NET, .EDU domains and
+Registrars.
+   Domain Name: POROSCTF.COM
+   Registry Domain ID: 3037086029_DOMAIN_COM-VRSN
+   Registrar WHOIS Server: whois.rumahweb.com
+   Registrar URL: http://www.rumahweb.com
+   Updated Date: 2025-11-09T12:49:22Z
+   Creation Date: 2025-11-09T12:45:41Z
+   Registry Expiry Date: 2026-11-09T12:45:41Z
+   Registrar: CV. Rumahweb Indonesia
+   Registrar IANA ID: 1675
+   Registrar Abuse Contact Email: abuse@rumahweb.co.id
+   Registrar Abuse Contact Phone: +62.274882257
+   Domain Status: ok https://icann.org/epp#ok
+   Name Server: HADLEE.NS.CLOUDFLARE.COM
+   Name Server: LELAND.NS.CLOUDFLARE.COM
+   DNSSEC: unsigned
+   URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
+>>> Last update of whois database: 2026-04-19T07:17:23Z <<<
+
+For more information on Whois status codes, please visit https://icann.org/epp
+
+NOTICE: The expiration date displayed in this record is the date the
+registrar's sponsorship of the domain name registration in the registry is
+currently set to expire. This date does not necessarily reflect the expiration
+date of the domain name registrant's agreement with the sponsoring
+registrar.  Users may consult the sponsoring registrar's Whois database to
+view the registrar's reported date of expiration for this registration.
+
+TERMS OF USE: You are not authorized to access or query our Whois
+database through the use of electronic processes that are high-volume and
+automated except as reasonably necessary to register domain names or
+modify existing registrations; the Data in VeriSign Global Registry
+Services' ("VeriSign") Whois database is provided by VeriSign for
+information purposes only, and to assist persons in obtaining information
+about or related to a domain name registration record. VeriSign does not
+guarantee its accuracy. By submitting a Whois query, you agree to abide
+by the following terms of use: You agree that you may use this Data only
+for lawful purposes and that under no circumstances will you use this Data
+to: (1) allow, enable, or otherwise support the transmission of mass
+unsolicited, commercial advertising or solicitations via e-mail, telephone,
+or facsimile; or (2) enable high volume, automated, electronic processes
+that apply to VeriSign (or its computer systems). The compilation,
+repackaging, dissemination or other use of this Data is expressly
+prohibited without the prior written consent of VeriSign. You agree not to
+use electronic processes that are automated and high-volume to access or
+query the Whois database except as reasonably necessary to register
+domain names or modify existing registrations. VeriSign reserves the right
+to restrict your access to the Whois database in its sole discretion to ensure
+operational stability.  VeriSign may restrict or terminate your access to the
+Whois database for failure to abide by these terms of use. VeriSign
+reserves the right to modify these terms at any time.
+
+The Registry database contains ONLY .COM, .NET, .EDU domains and
+Registrars.
+Domain Name: POROSCTF.COM
+Registry Domain ID:
+Registrar WHOIS Server: whois.rumahweb.com
+Registrar URL: https://www.rumahweb.com
+Creation Date: 2025-11-09T12:45:41+07:00
+Registrar Registration Expiration Date: 2026-11-09T12:45:41+07:00
+Registrar: CV. Rumahweb Indonesia
+Registrar IANA ID: 1675
+Registrar Abuse Contact Email:abuse@rumahweb.co.id
+Registrar Abuse Contact Phone:+62.274882257
+Domain Status: ok http://www.icann.org/epp#ok
+Registry Registrant ID: REDACTED FOR PRIVACY
+Registrant Name: REDACTED FOR PRIVACY
+Registrant Organization: REDACTED FOR PRIVACY
+Registrant Street: REDACTED FOR PRIVACY
+Registrant City: REDACTED FOR PRIVACY
+Registrant State/Province: DKI Jakarta
+Registrant Postal Code: REDACTED FOR PRIVACY
+Registrant Country: ID
+Registrant Phone: REDACTED FOR PRIVACY
+Registrant Phone Ext: REDACTED FOR PRIVACY
+Registrant Fax: REDACTED FOR PRIVACY
+Registrant Fax Ext: REDACTED FOR PRIVACY
+Registrant Email: Please contact at http://whois.rumahweb.com/contact.
+Registry Admin ID: REDACTED FOR PRIVACY
+Admin Name: REDACTED FOR PRIVACY
+Admin Organization: REDACTED FOR PRIVACY
+Admin Street: REDACTED FOR PRIVACY
+Admin City: REDACTED FOR PRIVACY
+Admin State/Province: REDACTED FOR PRIVACY
+Admin Postal Code: REDACTED FOR PRIVACY
+Admin Country: REDACTED FOR PRIVACY
+Admin Phone: REDACTED FOR PRIVACY
+Admin Phone Ext:REDACTED FOR PRIVACY
+Admin Fax: REDACTED FOR PRIVACY
+Admin Fax Ext: REDACTED FOR PRIVACY
+Registrant Email: Please contact at http://whois.rumahweb.com/contact.
+Registry Billing ID: REDACTED FOR PRIVACY
+Billing Name: REDACTED FOR PRIVACY
+Billing Organization: REDACTED FOR PRIVACY
+Billing Street: REDACTED FOR PRIVACY
+Billing City: REDACTED FOR PRIVACY
+Billing State/Province: REDACTED FOR PRIVACY
+Billing Postal Code: REDACTED FOR PRIVACY
+Billing Country: REDACTED FOR PRIVACY
+Billing Phone: REDACTED FOR PRIVACY
+Billing Phone Ext: REDACTED FOR PRIVACY
+Billing Fax: REDACTED FOR PRIVACY
+Billing Fax Ext: REDACTED FOR PRIVACY
+Registrant Email: Please contact at http://whois.rumahweb.com/contact.
+Registry Tech ID: REDACTED FOR PRIVACY
+Tech Name: REDACTED FOR PRIVACY
+Tech Organization: REDACTED FOR PRIVACY
+Tech Street: REDACTED FOR PRIVACY
+Tech City: REDACTED FOR PRIVACY
+Tech State/Province: REDACTED FOR PRIVACY
+Tech Postal Code: REDACTED FOR PRIVACY
+Tech Country: REDACTED FOR PRIVACY
+Tech Phone: REDACTED FOR PRIVACY
+Tech Phone Ext: REDACTED FOR PRIVACY
+Tech Fax: REDACTED FOR PRIVACY
+Tech Fax Ext: REDACTED FOR PRIVACY
+Registrant Email: Please contact at http://whois.rumahweb.com/contact.
+Name Server: hadlee.ns.cloudflare.com
+Name Server: leland.ns.cloudflare.com
+DNSSEC:Unsigned
+URL of the ICANN WHOIS Data Problem Reporting System:
+http://wdprs.internic.net/
+Registration Service Provided By: CV. Rumahweb Indonesia
+The data in this whois database is provided to you for information purposes
+only, that is, to assist you in obtaining information about or related to a
+domain name registration record. We make this information available "as is",
+and do not guarantee its accuracy. By submitting a whois query, you agree
+that you will use this data only for lawful purposes and that, under no
+circumstances will you use this data to: 
+(1) enable high volume, automated, electronic processes that stress or load 
+this whois database system providing you this information; or 
+(2) allow, enable, or otherwise support the transmission of mass unsolicited,
+commercial advertising or solicitations via direct mail, electronic mail, or
+by telephone.
+The compilation, repackaging, dissemination or other use of this data is
+expressly prohibited without prior written consent from us. The Registrar of
+record is CV. Rumahweb Indonesia.
+We reserve the right to modify these terms at any time.
+By submitting this query, you agree to abide by these terms.

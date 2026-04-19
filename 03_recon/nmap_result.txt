@@ -1,0 +1,85 @@
+# Nmap 7.98 scan initiated Sun Apr 19 03:20:49 2026 as: /usr/lib/nmap/nmap --privileged -sV -p 80,443,8080,8443 --script=http-title,http-headers -oN nmap_result.txt mirror.porosctf.com
+Nmap scan report for mirror.porosctf.com (172.67.159.202)
+Host is up (0.014s latency).
+Other addresses for mirror.porosctf.com (not scanned): 104.21.90.190 2606:4700:3033::ac43:9fca 2606:4700:3036::6815:5abe
+
+PORT     STATE SERVICE  VERSION
+80/tcp   open  http     Cloudflare http proxy
+| http-headers: 
+|   Date: Sun, 19 Apr 2026 07:21:04 GMT
+|   Content-Type: text/html; charset=utf-8
+|   Connection: close
+|   Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+|   cross-origin-opener-policy: same-origin-allow-popups
+|   Server: cloudflare
+|   Set-Cookie: session=5152704f-8a07-4493-bd26-4cfdb6394dd4.4T2x9DaCadezmdGzDeAJwiBW_DU; HttpOnly; Path=/; SameSite=Lax
+|   cf-cache-status: DYNAMIC
+|   Server-Timing: cfCacheStatus;desc="DYNAMIC"
+|   Server-Timing: cfEdge;dur=14,cfOrigin;dur=358
+|   Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=3jsuzscpKF%2BA3p3fw%2BnWZoHvO9pAGx2sxV52f7bqtTihOh3d2xjfBKu172wO3wG1ip9c5Q7so45CUFMIUVrvPnJxOnxwVqP0E%2BrwVvqziJG%2BhZEcBDrHhaWwi%2F4zlc0LUUhKGPHA"}]}
+|   CF-RAY: 9eea26771d75a06f-SIN
+|   alt-svc: h3=":443"; ma=86400
+|   
+|_  (Request type: HEAD)
+|_http-title: PorosCTF
+|_http-server-header: cloudflare
+443/tcp  open  ssl/http Cloudflare http proxy
+| http-headers: 
+|   Date: Sun, 19 Apr 2026 07:21:04 GMT
+|   Content-Type: text/html; charset=utf-8
+|   Connection: close
+|   Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+|   cross-origin-opener-policy: same-origin-allow-popups
+|   Server: cloudflare
+|   Set-Cookie: session=0760f258-56af-4595-9156-fd18ba54ae3f.7863WMERTK9kHxIyc_5cBnQx2vA; HttpOnly; Path=/; SameSite=Lax
+|   cf-cache-status: DYNAMIC
+|   Server-Timing: cfCacheStatus;desc="DYNAMIC"
+|   Server-Timing: cfEdge;dur=6,cfOrigin;dur=142
+|   Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=vqyDav9cUIrZsuR7sHQOgxE65G3Or14Fm9nhFaX8QYvVqpR%2FYY1I0VN0vg1VnivRyB%2Fyavd6RRiL5dxFGdy0q7TPa62rnr7kELSX9aVbQLi%2FZ1G1BpJ%2FsvbGu28NI0%2F%2F5DTsVKSd"}]}
+|   CF-RAY: 9eea26786bb1fdb6-SIN
+|   alt-svc: h3=":443"; ma=86400
+|   
+|_  (Request type: HEAD)
+|_http-server-header: cloudflare
+|_http-title: PorosCTF
+8080/tcp open  http     Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: PorosCTF
+| http-headers: 
+|   Date: Sun, 19 Apr 2026 07:21:03 GMT
+|   Content-Type: text/html; charset=utf-8
+|   Connection: close
+|   Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+|   cross-origin-opener-policy: same-origin-allow-popups
+|   Server: cloudflare
+|   Set-Cookie: session=5cb76c27-1275-4049-aa10-793bba00d0ad.gpQzHB_Eta0C6XQkymTlg6eZP_g; HttpOnly; Path=/; SameSite=Lax
+|   cf-cache-status: DYNAMIC
+|   Server-Timing: cfCacheStatus;desc="DYNAMIC"
+|   Server-Timing: cfEdge;dur=24,cfOrigin;dur=403
+|   Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=GYkHTSxpJv0ziCjtgs3aQAGMDAkTUjDVIn7ukv2Iry9grBI4g%2Bb6UNYP1ff1OPjuhYq1IEfHNWNmMXTK9s21czrWLHHwVGmzGi2SIATcyqDP3bEFoJPbayEn2ngwN0ZqeFux9HOP"}]}
+|   CF-RAY: 9eea2673be73c261-SIN
+|   alt-svc: h3=":443"; ma=86400
+|   
+|_  (Request type: HEAD)
+8443/tcp open  ssl/http Cloudflare http proxy
+|_http-server-header: cloudflare
+|_http-title: PorosCTF
+| http-headers: 
+|   Date: Sun, 19 Apr 2026 07:21:04 GMT
+|   Content-Type: text/html; charset=utf-8
+|   Connection: close
+|   Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+|   cross-origin-opener-policy: same-origin-allow-popups
+|   Server: cloudflare
+|   Set-Cookie: session=93e5acd4-391d-4113-addb-97883d111bc4.XXfdD_5cJtAkN_WZ5nuvhjDv91U; HttpOnly; Path=/; SameSite=Lax
+|   cf-cache-status: DYNAMIC
+|   Server-Timing: cfCacheStatus;desc="DYNAMIC"
+|   Server-Timing: cfEdge;dur=10,cfOrigin;dur=342
+|   Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=0i0IVW53Rp3fAZu0VSrOOE8FlEe5ymrPAZs2Z%2BrFWBebIBNB0zrDOJ%2BTOC3qPH5gBv31mwrJi3A%2Fu%2FMZHFncoVHgr44f6rm5szSamU6hbgh2G%2F2JnZKrq%2BWXqdL6y2H0uXlzeMMO"}]}
+|   CF-RAY: 9eea26786880daa5-SIN
+|   alt-svc: h3=":8443"; ma=86400
+|   
+|_  (Request type: HEAD)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Apr 19 03:21:05 2026 -- 1 IP address (1 host up) scanned in 15.55 seconds

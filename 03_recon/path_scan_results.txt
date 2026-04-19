@@ -1,0 +1,15 @@
+=== Path Discovery ===
+[200] /robots.txt
+[404] /sitemap.xml
+[404] /.well-known/security.txt
+[302] /admin
+[200] /login
+[200] /register
+[404] /api/v1
+[302] /api/v1/challenges
+[302] /api/v1/users/me
+[404] /static/
+[404] /uploads/
+[404] /config
+[404] /.git/HEAD
+[404] /.env

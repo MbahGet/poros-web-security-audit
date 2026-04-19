@@ -1,0 +1,14 @@
+/robots.txt
+/sitemap.xml
+/.well-known/security.txt
+/admin
+/login
+/register
+/api/v1
+/api/v1/challenges
+/api/v1/users/me
+/static/
+/uploads/
+/config
+/.git/HEAD
+/.env
