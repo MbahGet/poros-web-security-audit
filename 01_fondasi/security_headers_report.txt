@@ -1,6 +1,5 @@
 === Security Headers Check ===
 
-
 MISSING: Strict-Transport-Security
 MISSING: Content-Security-Policy
 MISSING: X-Frame-Options

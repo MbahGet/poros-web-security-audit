@@ -1,7 +1,7 @@
 
 #####################################################################
   testssl version 3.2.2 from https://testssl.sh/
-  (9289302 2026-04-19 01:52:32)
+  (601b2f7 2026-04-19 02:20:30)
 
   This program is free software. Distribution and modification under
   GPLv2 permitted. USAGE w/o ANY WARRANTY. USE IT AT YOUR OWN RISK!
@@ -12,12 +12,12 @@
   Using OpenSSL 3.5.5 (Jan 27 2026)  [~103 ciphers]
   on kali:/usr/bin/openssl
 
-Testing all IP addresses (port 443): 172.67.159.202 104.21.90.190
--------------------------------------------------------------------------------
- Start 2026-04-19 02:08:40        -->> 172.67.159.202:443 (mirror.porosctf.com) <<--
+Testing all IP addresses (port 443): 104.21.90.190 172.67.159.202
+--------------------------------------------------------------------
+ Start 2026-04-19 02:28:23        -->> 104.21.90.190:443 (mirror.porosctf.com) <<--
 
- Further IP addresses:   104.21.90.190 2606:4700:3033::ac43:9fca 2606:4700:3036::6815:5abe 
- rDNS (172.67.159.202):  --
+ Further IP addresses:   172.67.159.202 2606:4700:3033::ac43:9fca 2606:4700:3036::6815:5abe 
+ rDNS (104.21.90.190):   --
  Service detected:       HTTP
 
  Testing protocols via sockets except NPN+ALPN 
@@ -75,10 +75,11 @@ TLSv1.3 (no server order, thus listed by strength)
 
  Testing robust forward secrecy (FS) -- omitting Null Authentication/Encryption, 3DES, RC4 
 
- FS is offered (OK)           TLS_AES_256_GCM_SHA384 TLS_CHACHA20_POLY1305_SHA256 ECDHE-ECDSA-AES256-GCM-SHA384
-                              ECDHE-ECDSA-AES256-SHA384 ECDHE-ECDSA-AES256-SHA ECDHE-ECDSA-CHACHA20-POLY1305
-                              TLS_AES_128_GCM_SHA256 ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-ECDSA-AES128-SHA256
-                              ECDHE-ECDSA-AES128-SHA 
+ FS is offered (OK)           TLS_AES_256_GCM_SHA384 TLS_CHACHA20_POLY1305_SHA256
+                              ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-ECDSA-AES256-SHA384
+                              ECDHE-ECDSA-AES256-SHA ECDHE-ECDSA-CHACHA20-POLY1305
+                              TLS_AES_128_GCM_SHA256 ECDHE-ECDSA-AES128-GCM-SHA256
+                              ECDHE-ECDSA-AES128-SHA256 ECDHE-ECDSA-AES128-SHA 
  KEMs offered                 X25519MLKEM768 X25519Kyber768Draft00 
  Elliptic curves offered:     prime256v1 secp384r1 secp521r1 X25519 
  TLS 1.2 sig_algs offered:    ECDSA+SHA256 ECDSA+SHA384 ECDSA+SHA512 ECDSA+SHA1 
@@ -87,8 +88,9 @@ TLSv1.3 (no server order, thus listed by strength)
  Testing server defaults (Server Hello) 
 
  TLS extensions (standard)    "server name/#0" "status request/#5" "EC point formats/#11"
-                              "application layer protocol negotiation/#16" "extended master secret/#23"
-                              "compress_certificate/#27" "session ticket/#35" "supported versions/#43" "key share/#51"
+                              "application layer protocol negotiation/#16"
+                              "extended master secret/#23" "compress_certificate/#27"
+                              "session ticket/#35" "supported versions/#43" "key share/#51"
                               "next protocol/#13172" "renegotiation info/#65281"
  Session Ticket RFC 5077 hint 64800 seconds, session tickets keys seems to be rotated < daily
  SSL Session ID support       yes
@@ -128,7 +130,7 @@ TLSv1.3 (no server order, thus listed by strength)
  Testing HTTP header response @ "/" 
 
  HTTP Status Code             200 OK
- HTTP clock skew              -17 sec from localtime
+ HTTP clock skew              0 sec from localtime
  Strict Transport Security    not offered
  Public Key Pinning           --
  Server banner                cloudflare
@@ -216,13 +218,13 @@ TLSv1.3 (no server order, thus listed by strength)
  Grade cap reasons            Grade capped to B. TLS 1.1 offered
                               Grade capped to B. TLS 1.0 offered
 
- Done 2026-04-19 02:10:42 [ 126s] -->> 172.67.159.202:443 (mirror.porosctf.com) <<--
+ Done 2026-04-19 02:30:15 [ 116s] -->> 104.21.90.190:443 (mirror.porosctf.com) <<--
 
--------------------------------------------------------------------------------
- Start 2026-04-19 02:10:42        -->> 104.21.90.190:443 (mirror.porosctf.com) <<--
+--------------------------------------------------------------------
+ Start 2026-04-19 02:30:15        -->> 172.67.159.202:443 (mirror.porosctf.com) <<--
 
- Further IP addresses:   172.67.159.202 2606:4700:3033::ac43:9fca 2606:4700:3036::6815:5abe 
- rDNS (104.21.90.190):   --
+ Further IP addresses:   104.21.90.190 2606:4700:3033::ac43:9fca 2606:4700:3036::6815:5abe 
+ rDNS (172.67.159.202):  --
  Service detected:       HTTP
 
  Testing protocols via sockets except NPN+ALPN 
@@ -280,10 +282,11 @@ TLSv1.3 (no server order, thus listed by strength)
 
  Testing robust forward secrecy (FS) -- omitting Null Authentication/Encryption, 3DES, RC4 
 
- FS is offered (OK)           TLS_AES_256_GCM_SHA384 TLS_CHACHA20_POLY1305_SHA256 ECDHE-ECDSA-AES256-GCM-SHA384
-                              ECDHE-ECDSA-AES256-SHA384 ECDHE-ECDSA-AES256-SHA ECDHE-ECDSA-CHACHA20-POLY1305
-                              TLS_AES_128_GCM_SHA256 ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-ECDSA-AES128-SHA256
-                              ECDHE-ECDSA-AES128-SHA 
+ FS is offered (OK)           TLS_AES_256_GCM_SHA384 TLS_CHACHA20_POLY1305_SHA256
+                              ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-ECDSA-AES256-SHA384
+                              ECDHE-ECDSA-AES256-SHA ECDHE-ECDSA-CHACHA20-POLY1305
+                              TLS_AES_128_GCM_SHA256 ECDHE-ECDSA-AES128-GCM-SHA256
+                              ECDHE-ECDSA-AES128-SHA256 ECDHE-ECDSA-AES128-SHA 
  KEMs offered                 X25519MLKEM768 X25519Kyber768Draft00 
  Elliptic curves offered:     prime256v1 secp384r1 secp521r1 X25519 
  TLS 1.2 sig_algs offered:    ECDSA+SHA256 ECDSA+SHA384 ECDSA+SHA512 ECDSA+SHA1 
@@ -292,8 +295,9 @@ TLSv1.3 (no server order, thus listed by strength)
  Testing server defaults (Server Hello) 
 
  TLS extensions (standard)    "server name/#0" "status request/#5" "EC point formats/#11"
-                              "application layer protocol negotiation/#16" "extended master secret/#23"
-                              "compress_certificate/#27" "session ticket/#35" "supported versions/#43" "key share/#51"
+                              "application layer protocol negotiation/#16"
+                              "extended master secret/#23" "compress_certificate/#27"
+                              "session ticket/#35" "supported versions/#43" "key share/#51"
                               "next protocol/#13172" "renegotiation info/#65281"
  Session Ticket RFC 5077 hint 64800 seconds, session tickets keys seems to be rotated < daily
  SSL Session ID support       yes
@@ -421,8 +425,8 @@ TLSv1.3 (no server order, thus listed by strength)
  Grade cap reasons            Grade capped to B. TLS 1.1 offered
                               Grade capped to B. TLS 1.0 offered
 
- Done 2026-04-19 02:12:27 [ 231s] -->> 104.21.90.190:443 (mirror.porosctf.com) <<--
+ Done 2026-04-19 02:32:01 [ 222s] -->> 172.67.159.202:443 (mirror.porosctf.com) <<--
 
--------------------------------------------------------------------------------
-Done testing now all IP addresses (on port 443): 172.67.159.202 104.21.90.190
+--------------------------------------------------------------------
+Done testing now all IP addresses (on port 443): 104.21.90.190 172.67.159.202
 
