@@ -1,0 +1,6 @@
+[200] BLOCKED – Normal GET
+[302] ALLOWED – Admin path
+[200] BLOCKED – SQLi pattern in URL
+[200] BLOCKED – XSS pattern in URL
+[404] ALLOWED – Path traversal
+[403] BLOCKED – User-Agent: scanner

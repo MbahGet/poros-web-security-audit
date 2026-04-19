@@ -1,0 +1,11 @@
+=== Manual WAF Detection ===
+
+--- Cloudflare Headers ---
+server: cloudflare
+cf-cache-status: DYNAMIC
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=abQN5GxfpUH3egM22ZoSV%2FvOvuJMaRukpMUpImn5gfsCLa%2BqyBUs%2BG2irYEtBJ8tmCGYLxPdrx2aZMLAQBoxvLtfmTo5L77N3W886h9yMGYJwP6yVADUiLbyiM5jmUwTMq%2BHtvTv"}]}
+cf-ray: 9eea4031ed62fd73-SIN
+
+--- IP Resolution ---
+104.21.90.190
+172.67.159.202
