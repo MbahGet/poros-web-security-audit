@@ -1,0 +1,12 @@
+- Nikto v2.6.0/
++ Target Host: mirror.porosctf.com
++ Target Port: 443
++ GET /: An alt-svc header was found which is advertising HTTP/3. The endpoint is: ':443'. Nikto cannot test HTTP/3 over QUIC. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/alt-svc: 
++ GET /: Cloudflare detected via cf-ray header. Recommend proxying via Burp or mitmproxy to avoid TLS fingerprint blocks. See: https://github.com/sullo/nikto/wiki/Using-a-Proxy: 
++ GET /: Cookie session created without the secure flag. See: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies: 
++ SSL Info:           Subject:  /CN=porosctf.com
+                      CN:       porosctf.com
+                      SAN:      porosctf.com, *.porosctf.com
+                      Ciphers:  TLS_AES_256_GCM_SHA384
+                      Issuer:   /C=US/O=Google Trust Services/CN=WE1
++ GET /robots.txt: contains 11 entries which should be manually viewed. See: https://developer.mozilla.org/en-US/docs/Glossary/Robots.txt: 

@@ -1,0 +1,54 @@
+
+                     __     _
+   ____  __  _______/ /__  (_)
+  / __ \/ / / / ___/ / _ \/ /
+ / / / / /_/ / /__/ /  __/ /
+/_/ /_/\__,_/\___/_/\___/_/   v3.7.1
+
+		projectdiscovery.io
+
+[[34mINF[0m] nuclei-templates are not installed, installing...
+[[34mINF[0m] Successfully installed nuclei-templates at /home/kali/.local/nuclei-templates
+[[31mWRN[0m] Found 1 templates with runtime error (use -validate flag for further examination)
+[[34mINF[0m] Current nuclei version: v3.7.1 ([91moutdated[0m)
+[[34mINF[0m] Current nuclei-templates version: v10.4.2 ([92mlatest[0m)
+[[34mINF[0m] New templates added in latest release: 121
+[[34mINF[0m] Templates loaded for current scan: 6084
+[[34mINF[0m] Executing 6084 signed templates from projectdiscovery/nuclei-templates
+[[34mINF[0m] Targets loaded for current scan: 1
+[[34mINF[0m] Templates clustered: 356 (Reduced 301 Requests)
+[[34mINF[0m] Using Interactsh Server: oast.fun
+[0:00:06] | Templates: 6084 | Hosts: 1 | RPS: 121 | Matched: 0 | Errors: 0 | Requests: 695/13952 (4%)
+[0:00:11] | Templates: 6084 | Hosts: 1 | RPS: 133 | Matched: 0 | Errors: 0 | Requests: 1432/13952 (10%)
+[0:00:16] | Templates: 6084 | Hosts: 1 | RPS: 128 | Matched: 0 | Errors: 1 | Requests: 2018/13952 (14%)
+[0:00:21] | Templates: 6084 | Hosts: 1 | RPS: 132 | Matched: 0 | Errors: 3 | Requests: 2746/13952 (19%)
+[0:00:26] | Templates: 6084 | Hosts: 1 | RPS: 140 | Matched: 0 | Errors: 3 | Requests: 3610/13952 (25%)
+[0:00:31] | Templates: 6084 | Hosts: 1 | RPS: 147 | Matched: 0 | Errors: 3 | Requests: 4515/13952 (32%)
+[0:00:36] | Templates: 6084 | Hosts: 1 | RPS: 144 | Matched: 0 | Errors: 3 | Requests: 5173/13952 (37%)
+[0:00:41] | Templates: 6084 | Hosts: 1 | RPS: 145 | Matched: 0 | Errors: 4 | Requests: 5924/13952 (42%)
+[0:00:46] | Templates: 6084 | Hosts: 1 | RPS: 142 | Matched: 0 | Errors: 4 | Requests: 6501/13952 (46%)
+[0:00:51] | Templates: 6084 | Hosts: 1 | RPS: 141 | Matched: 0 | Errors: 4 | Requests: 7189/13952 (51%)
+[0:00:56] | Templates: 6084 | Hosts: 1 | RPS: 139 | Matched: 0 | Errors: 6 | Requests: 7744/13952 (55%)
+[0:01:01] | Templates: 6084 | Hosts: 1 | RPS: 143 | Matched: 0 | Errors: 6 | Requests: 8709/13952 (62%)
+[0:01:06] | Templates: 6084 | Hosts: 1 | RPS: 143 | Matched: 0 | Errors: 6 | Requests: 9421/13952 (67%)
+[0:01:11] | Templates: 6084 | Hosts: 1 | RPS: 142 | Matched: 0 | Errors: 6 | Requests: 10042/13952 (71%)
+[0:01:16] | Templates: 6084 | Hosts: 1 | RPS: 137 | Matched: 0 | Errors: 10 | Requests: 10373/13952 (74%)
+[0:01:21] | Templates: 6084 | Hosts: 1 | RPS: 131 | Matched: 0 | Errors: 13 | Requests: 10609/13952 (76%)
+[0:01:26] | Templates: 6084 | Hosts: 1 | RPS: 123 | Matched: 0 | Errors: 13 | Requests: 10610/13952 (76%)
+[0:01:31] | Templates: 6084 | Hosts: 1 | RPS: 116 | Matched: 0 | Errors: 22 | Requests: 10625/13952 (76%)
+[0:01:36] | Templates: 6084 | Hosts: 1 | RPS: 111 | Matched: 0 | Errors: 24 | Requests: 10627/13952 (76%)
+[0:01:41] | Templates: 6084 | Hosts: 1 | RPS: 105 | Matched: 0 | Errors: 45 | Requests: 10651/13952 (76%)
+[0:01:46] | Templates: 6084 | Hosts: 1 | RPS: 100 | Matched: 0 | Errors: 48 | Requests: 10654/13952 (76%)
+[0:01:51] | Templates: 6084 | Hosts: 1 | RPS: 97 | Matched: 0 | Errors: 93 | Requests: 10750/13952 (77%)
+[0:01:56] | Templates: 6084 | Hosts: 1 | RPS: 95 | Matched: 0 | Errors: 95 | Requests: 11019/13952 (78%)
+[0:02:01] | Templates: 6084 | Hosts: 1 | RPS: 93 | Matched: 0 | Errors: 104 | Requests: 11326/13952 (81%)
+[0:02:06] | Templates: 6084 | Hosts: 1 | RPS: 91 | Matched: 0 | Errors: 104 | Requests: 11479/13952 (82%)
+[0:02:11] | Templates: 6084 | Hosts: 1 | RPS: 89 | Matched: 0 | Errors: 104 | Requests: 11727/13952 (84%)
+[0:02:16] | Templates: 6084 | Hosts: 1 | RPS: 89 | Matched: 0 | Errors: 104 | Requests: 12131/13952 (86%)
+[0:02:21] | Templates: 6084 | Hosts: 1 | RPS: 88 | Matched: 0 | Errors: 104 | Requests: 12518/13952 (89%)
+[0:02:26] | Templates: 6084 | Hosts: 1 | RPS: 88 | Matched: 0 | Errors: 108 | Requests: 12962/13952 (92%)
+[0:02:31] | Templates: 6084 | Hosts: 1 | RPS: 89 | Matched: 0 | Errors: 110 | Requests: 13420/13952 (96%)
+[0:02:36] | Templates: 6084 | Hosts: 1 | RPS: 88 | Matched: 0 | Errors: 110 | Requests: 13775/13952 (98%)
+[0:02:40] | Templates: 6084 | Hosts: 1 | RPS: 86 | Matched: 0 | Errors: 110 | Requests: 13775/13952 (98%)
+[[34mINF[0m] Scan completed in 2m. 0 matches found.
+[0:02:40] | Templates: 6084 | Hosts: 1 | RPS: 86 | Matched: 0 | Errors: 110 | Requests: 13775/13952 (98%)

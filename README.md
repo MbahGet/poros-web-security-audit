@@ -16,3 +16,7 @@ Dokumentasi hands-on analisis keamanan platform CTFd POROS (https://mirror.poros
 - URL: https://mirror.porosctf.com
 - Platform: CTFd
 - Tujuan: Analisis keamanan + rekomendasi perbaikan
+
+## Disclaimer
+Seluruh pengujian dilakukan secara legal terhadap platform milik
+sendiri (POROS). Tidak ada eksploitasi aktif yang dilakukan.
