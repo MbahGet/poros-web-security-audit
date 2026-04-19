@@ -1,0 +1,10 @@
+[q] <script>alert(1)</script>      → payload not reflected
+[q] <img src=x>                    → payload not reflected
+[q] '"><b>test</b>                 → payload not reflected
+[q] {{7*7}}                        → payload not reflected
+[q] ${7*7}                         → payload not reflected
+[name] <script>alert(1)</script>      → payload not reflected
+[name] <img src=x>                    → payload not reflected
+[name] '"><b>test</b>                 → payload not reflected
+[name] {{7*7}}                        → payload not reflected
+[name] ${7*7}                         → payload not reflected

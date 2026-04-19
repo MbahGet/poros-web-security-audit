@@ -1,0 +1,2 @@
+=== Cookie Security Analysis ===
+set-cookie: session=71226097-9fe3-411a-aaa6-dc529d5ffe7b.DhPHeItOJKONwt6KY5qwu81fYkw; HttpOnly; Path=/; SameSite=Lax

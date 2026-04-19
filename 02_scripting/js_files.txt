@@ -1,0 +1,4 @@
+src="/themes/CTFd-stargaze-theme/static/assets/color_mode_switcher.52334129.js"
+src="/themes/CTFd-stargaze-theme/static/assets/index.3f9d30b7.js"
+src="/themes/CTFd-stargaze-theme/static/assets/page.d80e9128.js"
+src="/themes/stargaze/static/js/space_v5.js"
